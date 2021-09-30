@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/erelita/faq-accordion.git)
-- Live Site URL: [Netlify](https://erelita.github.io/profile-card-component/)
+- Live Site URL: [Github Page](https://erelita.github.io/faq-accordion/)
 
 ## My process
 
