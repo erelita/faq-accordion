@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 :root {
     /* TEXT */
     --clr-desaturated-blue: hsl(238, 29%, 16%);
@@ -16,8 +15,6 @@
     --clr-soft-blue: hsl(240, 73%, 65%);
     /* DIVIDERS */
     --clr-light-grayish-blue: hsl(240, 5%, 91%);
-    /* TRANSFORM ARROW */
-    --transform: rotate(180deg);
 }
 
 html {
@@ -42,7 +39,6 @@ body {
     height: 535px;
     margin-top: 4rem;
     box-shadow: 0rem 3rem 5rem -1rem hsl(252, 49%, 48%);
-    ;
 }
 
 /***** ILLUSTRATION CONTAINER */
@@ -70,7 +66,6 @@ body {
 /***** FAQ CONTAINER */
 .faq-container {
     margin: 0 2em 0em 2rem;
-    width: 29rem;
 }
 
 .faq-heading {
@@ -136,6 +131,7 @@ body {
 @media screen and (min-width: 1440px) {
 
     .main-container {
+        margin-top: 0;
         display: grid;
         grid-template-columns: 50% 50%;
         width: 76.5rem;
@@ -175,14 +171,15 @@ body {
 
     /***** FAQ CONTAINER */
     .faq-container {
-    margin: 6em 8em 0em 0em;
+        margin: 6em 8em 0em 0em;
+        width: 29rem;
     }
 
     .faq-heading {
-    font-size: 2.5rem;
-    position: relative;
-    text-align: left;
-    margin: 0 0 1.5rem 0;
+        font-size: 2.5rem;
+        position: relative;
+        text-align: left;
+        margin: 0 0 1.5rem 0;
     }
 
     .arrow {
