@@ -91,6 +91,10 @@ body {
     position: relative;
 }
 
+.weight {
+    font-weight: 700;
+}
+
 .arrow {
     position: absolute;
     background: url('../images/icon-arrow-down.svg') no-repeat;
@@ -104,13 +108,11 @@ body {
     transform: rotate(180deg);
 }
 
-.weight {
-    font-weight: 700;
-}
-
 .answer {
     color: var(--clr-dark-grayish-blue);
 }
+
+/* SHOW/HIDE ANSWER */
 
 .hide {
     height: 0;
@@ -163,23 +165,6 @@ body {
         left: 14rem;
     }
 
-    /* .illustration-container {
-        background: url('../images/bg-pattern-desktop.svg') no-repeat center;
-        width: 210%;
-        height: 210%;
-        position: relative;
-        top: -30rem;
-        left: -50rem;
-    }
-    
-    .illustration-container::after {
-        content: ' ';
-        position: absolute;
-        background: url('../images/illustration-woman-online-desktop.svg') no-repeat;
-        width: 32rem;
-        height: 30.5rem;
-    } */
-
     /***** FAQ CONTAINER */
     .faq-container {
     margin: 6em 8em 0em 0em;
@@ -201,5 +186,8 @@ body {
         right: 1rem;
     }
 
+    .answer {
+        padding: 0rem 2rem 0rem 0rem;
+    }
 }
 
